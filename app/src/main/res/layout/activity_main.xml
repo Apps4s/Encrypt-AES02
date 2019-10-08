@@ -4,21 +4,21 @@
   xmlns:tools="http://schemas.android.com/tools"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
-  android:orientation="vertical"
   android:background="#F3C22D"
+  android:orientation="vertical"
   tools:context=".MainActivity">
 
   <EditText
-    android:hint="Texto a Encriptar"
     android:id="@+id/mainActivityEtTexto"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content" />
+    android:layout_height="wrap_content"
+    android:hint="Texto a Encriptar" />
 
   <EditText
-    android:hint="Password"
     android:id="@+id/mainActivityEtPassword"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content" />
+    android:layout_height="wrap_content"
+    android:hint="Password" />
 
   <TextView
     android:id="@+id/mainActivityTvTexto"
@@ -26,21 +26,21 @@
     android:layout_height="wrap_content" />
 
   <Button
-    android:text="encriptar"
     android:id="@+id/mainActivityBtEncriptar"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content" />
+    android:layout_height="wrap_content"
+    android:text="encriptar" />
 
   <Button
-    android:text="Des-encriptar"
     android:id="@+id/mainActivityBtDesencritar"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content" />
+    android:layout_height="wrap_content"
+    android:text="Des-encriptar" />
 
   <Button
-    android:text="Api Encriptada"
     android:id="@+id/mainActivityBtApiEncriptada"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content" />
+    android:layout_height="wrap_content"
+    android:text="Api Encriptada" />
 
 </LinearLayout>
